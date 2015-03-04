@@ -1,0 +1,20 @@
+{
+  "manifest_version": 1,
+  "name": "Nimoy",
+  "permissions": [
+          "storage",
+          "unlimitedStorage",
+          {"fileSystem": ["write", "retainEntries", "directory"]}
+  ],
+  "version": "1.1",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}
