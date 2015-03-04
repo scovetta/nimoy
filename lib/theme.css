@@ -4,6 +4,7 @@ ul.fancytree-container {
 }
 nav {
   background-image: -webkit-linear-gradient(top, #000020 0%, #000000 100%);
+  -webkit-app-region: drag;
 }
 .typeahead,
 .tt-query,
